@@ -1,0 +1,70 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make the home container fill the viewport height */
+    background-color: #181818; /* Dark background color */
+    color: #fff;
+  }
+  
+  .home-content {
+    flex: 1; /* Allow the content to grow to fill the remaining space */
+    padding: 2rem;
+  }
+  
+  .home-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .home-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Add more CSS rules for specific elements within the home page, such as: */
+  
+  .music-list {
+    list-style: none; /* Remove default list bullets */
+    padding: 0; 
+  }
+  
+  .track-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #333; /* Add a subtle border between tracks */
+  }
+  
+  .track-info {
+    flex: 1; /* Allow the track information to take up most of the space */
+    margin-right: 1rem;
+  }
+  
+  .track-info h3 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  .track-info p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+    color: #888; /* Lighter gray for artist name */
+  }
+  
+  .track-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .track-actions button {
+    background-color: #1DB954; /* Spotify green */
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
